@@ -1,3 +1,5 @@
+
+/* NAVIGATION */
 nav {
   background-color: #808080;
 }
@@ -24,6 +26,7 @@ a:hover {
   font-size: 0;
 }
 
+/* HEADER */
 header {
   text-align: center;
 }
@@ -40,23 +43,35 @@ h2{
 p{
   text-align: center;
 }
+/* MEMORY GAME BOARD */
 
 .board {
-  height: 50%;
+  height: 80%;
   width: 50%;
-  margin: 8%;
-  float: left;
-  display: inline-block;
+
 }
 
 .card {
   height: 200px;
   width: 150px;
   border: 1px solid rgb(0,0,0);
-  background: rgb(255,255,0);
+  background-color: rgb(255,255,0);
   border-radius: 10px;
+  float: left;
+  margin: 8%;
 }
 
+/* added to keep the card images from imgur a decent size */
+img {
+  height: 200px;
+  width: 150px;
+}
+
+#break {
+  clear: both;
+}
+
+/*FOOTER */
 footer {
   text-align: center;
   background-color: #808080;
